@@ -7,7 +7,7 @@
 # It is used in this project to streamline documentation and provide better support for docstring generation.
 
 [project]
-site_name = "nlp-05-web-documents"
+site_name = "Web Mining NLP Project – Kiruthikaa"
 site_url = "https://kiruthikaa2512.github.io/nlp-05-web-documents/"
 repo_url = "https://github.com/Kiruthikaa2512/nlp-05-web-documents"
 repo_name = "Kiruthikaa2512/nlp-05-web-documents"
