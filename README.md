@@ -1,4 +1,8 @@
 # nlp-05-web-documents
+**Author:** Kiruthikaa
+**GitHub Repo:** https://github.com/Kiruthikaa2512/nlp-05-web-documents
+**Purpose:** This project demonstrates a structured EVTL pipeline to extract and process HTML data from web documents and transform it into a structured format for analysis.
+
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
