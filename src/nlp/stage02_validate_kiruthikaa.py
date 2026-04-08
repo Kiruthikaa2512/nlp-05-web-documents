@@ -1,5 +1,5 @@
 """
-src/nlp/stage02_validate_case.py - Validate Stage
+src/nlp/stage02_validate_kiruthikaa.py - Validate Stage
 (EDIT YOUR COPY OF THIS FILE)
 
 Source: Raw HTML string
@@ -58,6 +58,7 @@ def run_validate(
     """
     LOG.info("========================")
     LOG.info("STAGE 02: VALIDATE starting...")
+    LOG.info("VALIDATE: Running Kiruthikaa custom validation file")
     LOG.info("========================")
 
     # ============================================================
@@ -93,6 +94,12 @@ def run_validate(
     LOG.info("VALIDATE: Abstract found: %s", abstract is not None)
     LOG.info("VALIDATE: Subjects found: %s", subjects is not None)
     LOG.info("VALIDATE: Dateline found: %s", dateline is not None)
+
+    # Additional validation: check whether the abstract text is long enough
+    if abstract and len(abstract.get_text(strip=True)) > 50:
+        LOG.info("VALIDATE: Abstract length is sufficient.")
+    else:
+        LOG.warning("VALIDATE: Abstract may be too short or missing.")
 
     missing = []
     if not title:
